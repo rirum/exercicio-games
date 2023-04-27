@@ -12,10 +12,7 @@ const api = supertest(app);
 
 describe("GET /consoles", () => {
     it("should get all consoles", async () => {
-        const body = {
-            name: "atari",
-            games
-        }
+       
     })
 })
 
@@ -25,7 +22,7 @@ describe("GET /consoles/:id", () => {
     })
 })
 
-describe("POST /consoles/", () => {
+describe("POST /consoles", () => {
     it("should post a console", async () => {
         
     })
